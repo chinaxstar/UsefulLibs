@@ -1,0 +1,113 @@
+
+android support
+implementation 'com.android.support:design:26.1.0'
+implementation 'com.android.support:recyclerview-v7:26.1.0'
+implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+implementation 'com.android.support:appcompat-v7:26.1.0'
+
+ButterKnife
+https://github.com/JakeWharton/butterknife
+implementation 'com.jakewharton:butterknife:8.8.1'
+annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+json
+https://github.com/google/gson
+implementation 'com.google.code.gson:gson:2.8.2'
+
+rxjava2
+https://github.com/ReactiveX/RxJava
+implementation 'io.reactivex.rxjava2:rxjava:2.1.12'
+
+rxandroid
+https://github.com/ReactiveX/RxAndroid
+implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+
+rxbus
+https://github.com/AndroidKnife/RxBus
+compile 'com.hwangjr.rxbus:rxbus:1.0.6'
+
+RxPermissions
+https://github.com/tbruyelle/RxPermissions
+implementation 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
+
+retrofit
+https://github.com/square/retrofit
+implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+
+okhttp
+https://github.com/square/okhttp
+implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+
+android-async-http
+https://github.com/loopj/android-async-http
+compile 'com.loopj.android:android-async-http:1.4.9'
+
+glide
+https://github.com/bumptech/glide
+implementation 'com.github.bumptech.glide:glide:4.7.1'
+annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+
+universal-image-loader-1.9.5.jar
+https://github.com/nostra13/Android-Universal-Image-Loader
+
+fresco
+https://github.com/facebook/fresco
+implem=entation 'com.facebook.fresco:fresco:1.9.0'
+
+Picasso
+https://github.com/square/picasso
+implementation 'com.squareup.picasso:picasso:2.71828'
+
+banner
+https://github.com/youth5201314/banner
+compile 'com.youth.banner:banner:1.4.10'
+
+dagger2
+https://github.com/google/dagger
+compile 'com.google.dagger:dagger:2.x'
+annotationProcessor 'com.google.dagger:dagger-compiler:2.x'
+compile 'com.google.dagger:dagger-android-support:2.x' // if you use the support libraries
+
+realm-java
+https://github.com/realm/realm-java
+maven {
+            url 'http://oss.jfrog.org/artifactory/oss-snapshot-local'
+        }
+classpath "io.realm:realm-gradle-plugin:5.0.1-SNAPSHOT"
+
+greenDao
+https://github.com/greenrobot/greenDAO
+// In your root build.gradle file:
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral() // add repository
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.1'
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.2' // add plugin
+    }
+}
+
+// In your app projects build.gradle file:
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao' // apply plugin
+
+dependencies {
+    implementation 'org.greenrobot:greendao:3.2.2' // add library
+}
+
+ormlite-android
+https://github.com/j256/ormlite-core
+https://github.com/j256/ormlite-android
+http://ormlite.com/javadoc/ormlite-core/doc-files/ormlite_1.html#Getting-Started
+implementation 'com.j256.ormlite:ormlite-jdbc:5.1'
+implementation 'com.j256.ormlite:ormlite-core:5.1'
+implementation 'com.j256.ormlite:ormlite-android:5.1'
+
+sugar
+https://github.com/chennaione/sugar
+compile 'com.github.satyan:sugar:1.5'
+
+umeng
+implementation 'com.umeng.analytics:analytics:latest.integration'
